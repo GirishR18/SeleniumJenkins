@@ -3,7 +3,7 @@ package pack1;
 import org.testng.annotations.Test;
 
 public class ContactTest {
-	@Test
+	@Test(groups = "smokeTest")
 	public void contactTest() {
 		String URL = System.getProperty("url");
 		String Browser = System.getProperty("browser");
