@@ -7,10 +7,16 @@ public class ContactTest {
 	public void contactTest() {
 		System.out.println("Contact is getting Created ");
 	}
-	
+
 	@Test
 	public void contactSearch() {
 		System.out.println("Contact is getting searched ");
+	}
+	
+	@Test
+	public void contactDelete() {
+		System.out.println("Contact is getting Deleted ");
+		System.out.println("Congrats");
 	}
 
 }

@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-22T15:21:48 IST" name="Suite" finished-at="2025-09-22T15:21:48 IST" duration-ms="133">
+  <suite started-at="2025-09-24T14:46:53 IST" name="Default suite" finished-at="2025-09-24T14:46:53 IST" duration-ms="142">
     <groups>
     </groups>
-    <test started-at="2025-09-22T15:21:48 IST" name="Test" finished-at="2025-09-22T15:21:48 IST" duration-ms="133">
-      <class name="pack2.OrgTest">
-        <test-method signature="OrgCreateTest()[pri:0, instance:pack2.OrgTest@2e8c1c9b]" started-at="2025-09-22T15:21:48 IST" name="OrgCreateTest" finished-at="2025-09-22T15:21:48 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrgCreateTest -->
-        <test-method signature="orgSearchTest()[pri:0, instance:pack2.OrgTest@2e8c1c9b]" started-at="2025-09-22T15:21:48 IST" name="orgSearchTest" finished-at="2025-09-22T15:21:48 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orgSearchTest -->
-      </class> <!-- pack2.OrgTest -->
+    <test started-at="2025-09-24T14:46:53 IST" name="Default test" finished-at="2025-09-24T14:46:53 IST" duration-ms="142">
       <class name="pack1.ContactTest">
-        <test-method signature="contactSearch()[pri:0, instance:pack1.ContactTest@2ddc9a9f]" started-at="2025-09-22T15:21:48 IST" name="contactSearch" finished-at="2025-09-22T15:21:48 IST" duration-ms="12" status="PASS">
+        <test-method signature="contactSearch()[pri:0, instance:pack1.ContactTest@3e27aa33]" started-at="2025-09-24T14:46:53 IST" name="contactSearch" finished-at="2025-09-24T14:46:53 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactSearch -->
-        <test-method signature="contactTest()[pri:0, instance:pack1.ContactTest@2ddc9a9f]" started-at="2025-09-22T15:21:48 IST" name="contactTest" finished-at="2025-09-22T15:21:48 IST" duration-ms="6" status="PASS">
+        <test-method signature="contactTest()[pri:0, instance:pack1.ContactTest@3e27aa33]" started-at="2025-09-24T14:46:53 IST" name="contactTest" finished-at="2025-09-24T14:46:53 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactTest -->
+        <test-method signature="deleteContact()[pri:0, instance:pack1.ContactTest@3e27aa33]" started-at="2025-09-24T14:46:53 IST" name="deleteContact" finished-at="2025-09-24T14:46:53 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
       </class> <!-- pack1.ContactTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
